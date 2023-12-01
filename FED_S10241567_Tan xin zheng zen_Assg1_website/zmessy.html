@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>CleaningCrew</title>
+	<link href="Normalize.css" rel="stylesheet" type="text/css" />
+    <link href="Header.css" rel="stylesheet" type="text/css" />
+    <link href="footer.css" rel="stylesheet" type="text/css" />
+    <style>
+article{
+            color: white;
+            padding: 20px;
+            text-align: left;
+			height: 600px;
+}
+article::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: -1;
+}
+a.book-appointment-style2 {
+    background-color: white;
+    color: #4B83C0;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 15px;
+    border: none;
+    border-radius: 20px;
+    transition: background-color 0.5s ease;
+  }
+a.about-us{
+	background-color: transparent;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 15px;
+    border: 1px solid white;
+    display: inline-block;
+    border-radius: 20px;
+    transition: background-color 0.5s ease;
+}
+.backgroundimage{
+            background-image: url(cleaning1.png);
+			background-position: center;
+            background-attachment: fixed;
+            background-size: cover;
+}
+    </style>
+</head> 
+<body>
+<header>
+	<img src="cleaningcrew.png" class="logo">
+	<a href="Home.html" style="margin-left: 430px; font-weight: bold;">Home</a>
+	<div class="dropdown">
+		<a href="#" style="font-weight: bold;">Services </a>
+        <img src="downarrow.png" style="width: 8px; display: inline-block;">
+		<div class="dropdown-content">
+		  <a href="#">Residential Cleaning</a>
+		  <a href="#">Commercial Cleaning</a>
+		  <a href="#">Specialised Cleaning</a>
+		</div>
+	  </div>
+	  <a href="Home.html" style="font-weight: bold;">About</a>
+	  <a href="Home.html" style="font-weight: bold;">Contact</a>
+	  <p style="margin-left: 350px; font-weight: bold;"><img src="call.png" style="margin-right: 6px; height: 14px;">12345678</p>
+	
+	  <a href="#" class="book-appointment" style="margin-left: 20px; ">Book Appointment</a>
+</header>
+	
+<article class="backgroundimage" style="background-blend-mode: darken">
+<div>
+<h1 style ="margin-left: 106px; margin-top: 132px; font-size: 56px;">Your Trusted Partner</h1>
+<h1 style ="margin-left: 106px; font-size: 56px; line-height: 0%;">in Cleanliness</h1>
+<pre>   We are dedicated to providing top-notch cleaning services
+tailored to meet your unique needs. Whether you're a busy 
+professional, a business owner, or a homeowner, we've got the 
+expertise and commitment to make your environment spotless.</pre>
+</div>
+
+<div>
+<a href="#" class="book-appointment-style2">Book Appointment</a>
+<a href="#" class="about-us">About Us</a>    
+</div>
+
+<footer style="margin-top: 190px; margin-left: 106px;">
+    <ul class="flex-container stretch">
+        <li class="flex-item">1</li>
+        <li class="flex-item">3</li>
+        <li class="flex-item">4</li>
+        <li class="flex-item">6</li>
+      </ul>
+</footer>
+
+</article>
+</body>
+
+</html>

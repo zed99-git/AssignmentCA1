@@ -1,0 +1,212 @@
+@media screen and (max-width: 380px) {
+    article{
+        width: 590px;  
+    }
+    .article2{
+        width: 590px; 
+    }
+    .container,
+    .article2 div.container,
+    .article2 form.container,
+    .container2,
+    .container3,
+    .container4 {
+        width: 60%;
+        padding: 0%;
+        padding-right: 10%;
+        margin-bottom: 0;
+        margin-top: 5%;
+        margin-left: 20px;
+    }
+
+    .backgroundimage {
+        margin-top: 0;
+        border-radius: 0%;
+    }
+
+    .article2 div.container img.image {
+        bottom: 0;
+        width: 590px; 
+        padding: 0;
+        margin: 0;
+        border-radius: 0%;
+        margin-left: -20px;
+    }
+
+    .article2 h1 {
+        font-size: 32px;
+    }
+
+    .article2 li {
+        line-height: 30px;
+    }
+
+    .article2 a.learn-more,
+    a.book-appointment-style2,
+    a.about-us,
+    .Enter,
+    pre.formtext,
+    #subject,
+    #message,
+    .Enter2,
+    .datetime,
+    .submit {
+        width: 30%;
+        padding: 15px;
+        margin: 10px;
+    }
+
+    .container3 div.booknow pre,
+    .ulcolor,
+    .listyle {
+        font-size: 12px;
+    }
+
+    .booknow {
+        width: 100%;
+    }
+
+    header {
+        width: 490px;  
+        padding: 12px 20px 0;
+    }
+
+    .number,
+    .navigation {
+        display: none;
+    }
+    .dropdown {
+        margin: 10px auto;
+        text-align: center; /* Center align elements */
+    }
+
+    .dropdown-content {
+        min-width: 100%;
+        box-shadow: none;
+    }
+
+    .dropdown-content a {
+        padding: 10px;
+        text-align: center; /* Center align elements */
+    }
+
+    a.book-appointment {
+        display: none;
+    }
+
+    .box {
+        width: 30%;
+        display: block;
+        margin: 20px;
+        padding: 10px;
+    }
+
+    .vertical-line {
+        display: none; /* Hide vertical line on smaller screens */
+    }
+
+    .enlarge {
+        font-size: 40px; /* Reduce font size for smaller screens */
+        margin: 10px 0;
+    }
+
+    .text {
+        font-size: 28px; /* Reduce font size for smaller screens */
+        margin: 0;
+    }
+    footer{
+        width: 590px; 
+        position: relative;
+        background-color: #4B83C0;
+        display: inline-block;
+      }
+    .footer2,
+    .footer3,
+    .footer4 {
+        width: 590px; 
+        display: block;
+        text-align: center; /* Center align elements */
+        margin-bottom: 100px;
+    }
+
+    .footer2 h1{
+        margin-top: 100px;
+        font-size: 50px;
+    }
+    .footer2 pre{
+        font-size: 20px;
+        line-height: 100%;
+    }
+    .footer3 pre,
+    .footer4 div.container {
+        font-size: 10px; /* Adjust font size for smaller screens */
+        margin: 10px 0; /* Adjust margins for better spacing */
+        line-height: 1.5; /* Reset line-height for better readability */
+    }
+
+    .footer3 div.card-1,
+    .footer3 div.card-2,
+    .footer3 div.card-3 {
+        width: 50%; /* Adjust width for smaller screens */
+        margin: 50px auto;
+        display: block; /* Adjust display to block */
+        font-size: 30px;
+        height: fit-content;
+    }
+    
+    .footer3 div.card-1 pre,
+    .footer3 div.card-2 pre,
+    .footer3 div.card-3 pre{
+        font-size: 18px;
+    }
+
+    .footer3 div.card-1 img.logo-1,
+    .footer3 div.card-2 img.logo-2,
+    .footer3 div.card-3 img.logo-3 {
+        width: 80px; /* Adjust image size */
+        top: 20px; /* Adjust position */
+        left: 5%; /* Adjust position */
+        padding: 20px; /* Adjust padding */
+    }
+.footer4{
+    margin-bottom: 0%;
+}
+    .footer4 div.container {
+        width: 50%; /* Adjust width for smaller screens */
+        font-size: larger;
+        padding: 0%;
+        padding-top: 5%;
+        text-align: left;
+    }
+
+    .footer4 div.container img.image {
+        width: 590px; 
+        right: 60%;
+    }
+
+    .Enteremail,
+    .subscribe {
+        margin: 10px; /* Center align buttons */
+        padding: auto;
+        display: block; /* Adjust display to block */
+        width: 60%; /* Adjust width for smaller screens */
+    }
+    .footerlast{ 
+        width: 590px; 
+        display: block;
+      }
+    .end{
+        position: relative;
+        width: 50%;
+        vertical-align: middle;
+        color: white;
+        padding-left: 50px;
+        display: inline-block;
+      }
+    }
+
+
+
+
+
+
